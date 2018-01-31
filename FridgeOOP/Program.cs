@@ -10,6 +10,8 @@ namespace FridgeOOP
     {
         static void Main(string[] args)
         {
+            Fridge fridgeOne = new Fridge();
+            fridgeOne.DispenseWater();
         }
     }
 }
