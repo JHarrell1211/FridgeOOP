@@ -107,9 +107,9 @@ namespace FridgeOOP
                 return "time to grocery shop";
             }
         }
-        public string Clean(bool isDirty)
+        public string Clean()
         {
-            if (isDirty)
+            if (isClean == false)
             {
                 isClean = true;
                 return "I cleaned the firdge";
