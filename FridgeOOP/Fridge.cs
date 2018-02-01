@@ -89,12 +89,12 @@ namespace FridgeOOP
 
         public void RemoveFood(int foodRemoved)
         {
-            foodAmount -= foodRemoved;
+             foodAmount -= foodRemoved;
         }
 
         public string CheckSupplies()
         {
-            if (foodAmount <= 80)
+            if (foodAmount >= 80)
             {
                 return "fully stocked";
             }
